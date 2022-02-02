@@ -1,0 +1,246 @@
+/*FONT*/
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+  }
+
+h1, button, a{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*NAV BAR */
+.nav_contain{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    font-size: 20px;
+    position:fixed;
+    align-items: flex-end;
+    padding-left: 1300px;
+    
+}
+
+#home{
+   color: #F19966;
+    text-decoration: underline #F19966  3px;
+    position: sticky;
+    border: none;
+    background: none;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+#work{
+    position: sticky;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+
+#about{
+    position: sticky;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+
+#contact{
+    position: sticky;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+
+/*HOME PAGE*/
+.intro{
+    display:flex;
+    flex-direction: column;
+}
+
+.dBig{
+    display: flex;
+    padding-bottom: 200px;
+    
+}
+
+.nameBig{
+    font-size: 100px;
+}
+
+.dBig{
+    font-size: 45px ;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.logo{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+
+.boxBigb{
+    display: flex;
+}
+
+#bar{
+    padding-left: 75px;
+}
+
+/*WORK PAGE*/
+/*PROJECT 1*/
+#org_bar{
+    padding-right: 20px;
+}
+
+#darkorg_bar{
+    padding-left: 20px;
+}
+.projOne{
+    display:flex;
+    padding-left: 75px;
+}
+
+.wc_img{
+    height: 600px;
+    border: solid 1.75px black;
+    
+}
+
+.sideG_one{
+    padding: 250px 200px;
+    
+}
+
+.recentW{
+    font-size: 50px;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    padding-left: 75px;
+}
+.projTwo{
+    padding-right: 200px;
+}
+#mad_one{
+    font-size: 50px;
+}
+
+.wc{
+    font-size: 20px;
+}
+
+
+
+.projThree{
+display:flex;
+padding-left:75px;
+
+}
+
+.projOne_class{
+    display:flex;
+}
+
+
+.projTwo{
+    display: flex;
+}
+.case_study{
+    background-color: #89564D;
+    border-color: #89564D;
+   color: white;
+   width: 150px;
+   height:50px;
+   font-size: 20px;;
+}
+
+/*ABOUT PAGE*/
+.page_container{
+    display:flex;
+    padding-left: 75px;
+    padding-bottom: 300px;
+}
+
+.top_text{
+    display:flex;
+    flex-direction: column; 
+    padding-left: 75px;
+    padding-top: 20px;
+}
+
+.bot_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding-top: 50px;
+    
+}
+
+.abt{
+    font-size: 50px;
+    padding-bottom: 0px;
+    padding-left: 75px;
+}
+
+#org_bar_two{
+    padding-right: 20px;
+}
+
+
+/*CONTACT PAGE */
+#last_page{
+    padding-left: 75px;
+    padding-bottom:50px;
+    font-size: 50px;
+}
+
+.last_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.thanks{
+    font-size: 35px;
+    padding-left: 75px;
+    padding-right: 90px;
+}
+
+.color{
+    color: #F19966;
+    text-decoration: underline #F19966  3px;
+}
+
+
+
+
+@media (max-width: 1000px){
+   
+
+
+
+    
+
+
+}
