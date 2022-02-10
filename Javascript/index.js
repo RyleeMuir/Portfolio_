@@ -1,3 +1,6 @@
+var navButton= getElementsByClass("navlit")
+var navDiv= getElementById("nav")
+
 window.onscroll= function() {myFunction()};
 
 var nav= document.getElementById("nav")
@@ -11,18 +14,42 @@ function myFunction() {
 
 }
 
-function changeColor(work) {
-    var defaultColor = 'black', activeColor = 'yellow',
-        window = document.getElementsId('work');
+window.onscroll= function() {myFunction()};
 
-    for (var i = 0; i < allWork.length; i++) {
-        window[i].style.color = defaultColor;
+var name= document.getElementById("rm_design")
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else{
+        logo.classList.remove("sticky");
     }
 
-    work.style.color = activeColor;
-
-    return false;
 }
+
+
+var btnContainer = document.getElementById("nav");
+var btns = btnContainer.getElementsByClassName("btn");
+
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -32,12 +59,9 @@ function changeColor(work) {
 
 // curOrange = home
 
-// curOrange = 1 // home
-// if 2, work
-// if 3
 
 /*
-if click_Home
+if click.Home
     if (curOrange = home){
         do nothing
     } else {   // you know home isn't orange

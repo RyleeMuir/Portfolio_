@@ -23,8 +23,6 @@ h1, button, a{
 }
 
 #home{
-   color: #F19966;
-    text-decoration: underline #F19966  3px;
     position: sticky;
     border: none;
     background: none;
@@ -65,30 +63,61 @@ h1, button, a{
     padding-top: 20px;
 }
 
+.active, .btn:hover {
+    color: #BE654F;
+}
+
+.btn{
+    border: 0px;
+    background: none;
+    font-size: 20px;
+}
 
 /*HOME PAGE*/
 .intro{
     display:flex;
     flex-direction: column;
 }
-
+.design_how{
+    font-size: 10px;
+}
 .dBig{
     display: flex;
-    padding-bottom: 200px;
     
+    
+}
+#location{
+    font-size: 35px;
+}
+
+#me_Me{
+    font-size: 25px;
+    padding-bottom: 120px;
 }
 
 .nameBig{
     font-size: 100px;
+    
 }
 
 .dBig{
-    font-size: 45px ;
+    
     padding-left: 75px;
     padding-right: 75px;
 }
 
+#rm_design{
+    position: sticky;
+    position: absolute;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+
+}
 .logo{
+    
     display:flex;
     justify-content: flex-end;
     font-size: 20px;
@@ -131,12 +160,13 @@ h1, button, a{
 
 .recentW{
     font-size: 50px;
-    padding-top: 55px;
+    padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 75px;
 }
 .projTwo{
     padding-right: 200px;
+    padding-top: 100px;
 }
 #mad_one{
     font-size: 50px;
@@ -146,6 +176,9 @@ h1, button, a{
     font-size: 20px;
 }
 
+.ccf_img{
+    padding-top: 20px;
+}
 
 
 .projThree{
@@ -175,7 +208,7 @@ padding-left:75px;
 .page_container{
     display:flex;
     padding-left: 75px;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 }
 
 .top_text{
@@ -183,6 +216,7 @@ padding-left:75px;
     flex-direction: column; 
     padding-left: 75px;
     padding-top: 20px;
+    padding-right: 120px;
 }
 
 .bot_text{
@@ -198,6 +232,7 @@ padding-left:75px;
     font-size: 50px;
     padding-bottom: 0px;
     padding-left: 75px;
+    padding-top:50px;
 }
 
 #org_bar_two{
@@ -206,6 +241,13 @@ padding-left:75px;
 
 
 /*CONTACT PAGE */
+.bg_contact{
+    background-color: #EDEDED;
+    width: 100%;
+    padding-top: 200px
+
+}
+
 #last_page{
     padding-left: 75px;
     padding-bottom:50px;
@@ -233,7 +275,62 @@ padding-left:75px;
 }
 
 
+#personal_pg{
+    display:flex;
+    padding-top: 100px;
+  padding-bottom: 150px;
+  
+}
+.inside_flx{
+    display: flex;
+    flex-direction: column;
+    padding-right: 320px;
+    padding-left: 150px;
+    align-self: center;
+  
+}
 
+
+#bp_bar{
+    padding-left: 20px;
+}
+
+#back_pick{
+    padding-left: 100px;
+}
+
+#lst_div{
+    display:flex;
+    
+}
+
+
+
+#text{
+    display:flex;
+
+}
+.bot_text{
+    padding-right:50px;
+}
+
+.email{
+    background-color: #89564D;
+    border-color: #89564D;
+   color: white;
+   width: 150px;
+   height:50px;
+   font-size: 20px;;
+}
+
+.li{
+    background-color: #89564D;
+    border-color: #89564D;
+   color: white;
+   width: 150px;
+   height:50px;
+   font-size: 20px;;
+}
 
 @media (max-width: 1000px){
    
